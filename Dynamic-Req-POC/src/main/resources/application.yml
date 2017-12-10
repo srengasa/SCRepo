@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: oltp
+    password: oltp
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    driver-class-name: oracle.jdbc.OracleDriver
