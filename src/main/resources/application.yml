@@ -1,0 +1,13 @@
+server:
+  port: 9002
+  
+gemfire:
+   caching:
+     log-level: config
+     server:
+       host: localhost
+       port: 40405
+     locators:
+       host: localhost
+       port: 40411
+     url: /Sample
