@@ -1,0 +1,73 @@
+.meao-view-container .meao-view-heading {
+    width: 100%;
+    max-width: 100%;
+}
+.meao-view-container .meao-view-heading {
+    margin: 0px;
+    background-color: #0168aa;
+    padding: 10px 15px;
+    font: 18px /128% "PNC Sans Bold", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+button {
+    overflow: visible;
+}
+.meao-view-container .meao-view-button-style .btn-primary {
+    color: #fff;
+    background: #26a3d4;
+    background: linear-gradient(to bottom, #26a3d4 0%, #0080bc 50%, #0060a2 100%);
+    border: 1px solid #49acda;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3782c4;
+    border-color: #347bba;
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.meao-legend-welcome-text {
+    display: inline-block;
+    height: 29px;
+    border: 0 none;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}

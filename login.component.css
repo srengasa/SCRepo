@@ -1,0 +1,71 @@
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+button {
+    overflow: visible;
+}
+.meao-view-container .meao-view-button-style .btn-primary {
+    color: #fff;
+    background: #26a3d4;
+    background: linear-gradient(to bottom, #26a3d4 0%, #0080bc 50%, #0060a2 100%);
+    border: 1px solid #49acda;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3782c4;
+    border-color: #347bba;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+.col-xs-9 {
+    width: 75%;
+}
+.form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+input {
+    font: 14px /128% Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-left: 6px;
+    box-shadow: #0060a2;
+    background-color: transparent;
+    border-color: #999;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-radius: 0;
+    outline: 0;
+    height: 41px;
+    margin: 0;
+    padding: 1px 2px;
+}
+.show{
+    opacity: 1;
+}
+.hide{
+    opacity: 0;
+}
