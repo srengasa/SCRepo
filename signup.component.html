@@ -1,0 +1,50 @@
+<br /><br />
+<div class="meao-view-container">
+    <div>
+            <h3 class="meao-view-heading">Applicant Information</h3>
+            <form (ngSubmit)="submit(form)" #form="ngForm" >
+
+                <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="FirstName" type="text" [(ngModel)]="customer.firstName" placeholder="FirstName"
+                     class="form-control ng-isolate-scope ng-valid-maxlength ng-dirty ng-valid-parse blurred-once ng-touched empty ng-invalid ng-invalid-form-error" required >
+                    <label for="firstName" [ngClass]="{show: customer.firstName != undefined, hide: customer.firstName == ''}" >FirstName</label>
+                    </div>
+                    <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="lastName" type="text" [(ngModel)]="customer.lastName" placeholder="lastName" 
+                    class="form-control ng-isolate-scope ng-valid-maxlength ng-dirty ng-valid-parse blurred-once ng-touched empty ng-invalid ng-invalid-form-error" required>
+                    <label for="lastName" [ngClass]="{show: customer.lastName != undefined, hide: customer.lastName == ''}" >LastName</label>
+                </div>
+                <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="addrLine1" type="text" [(ngModel)]="customer.addrLine1" placeholder="addrLine1" required>
+                    <label for="addrLine1" [ngClass]="{show: customer.addrLine1 != undefined, hide: customer.addrLine1 == ''}" >Address Line1</label>
+                </div>
+                <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="addrLine2" type="text" [(ngModel)]="customer.addrLine2" placeholder="addrLine2" required>
+                    <label for="addrLine2" [ngClass]="{show: customer.addrLine2 != undefined, hide: customer.addrLine2 == ''}" >Address Line2</label>
+                </div>
+                <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="city" type="text" [(ngModel)]="customer.city" placeholder="city" required>
+                    <label for="city" [ngClass]="{show: customer.city != undefined, hide: customer.city == ''}" >city</label>
+                </div>
+                    <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="state" type="text" [(ngModel)]="customer.state" placeholder="State" required>
+                    <label for="state" [ngClass]="{show: customer.state != undefined, hide: customer.state == ''}" >state</label>
+                </div>
+                    <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="zip" type="text" [(ngModel)]="customer.zip" placeholder="Zip" required>
+                    <label for="zip" [ngClass]="{show: customer.zip != undefined, hide: customer.zip == ''}" >Zip code</label>
+                </div>
+                    <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="email" type="text" [(ngModel)]="customer.email" placeholder="Email" required>
+                    <label for="email" [ngClass]="{show: customer.email != undefined, hide: customer.email == ''}" >Email</label>
+                </div>
+                <div class="form-group col-xs-12 meao-empty-child col-md-4">
+                    <input name="mobile" type="text" [(ngModel)]="customer.mobile" placeholder="Mobile" required>
+                    <label for="mobile" [ngClass]="{show: customer.mobile != undefined, hide: customer.mobile == ''}" >Mobile</label>
+                </div><br /><br>
+                <div class="meao-view-button-layout meao-view-button-style">
+                    <button type="submit" class="btn btn-primary"><b>Register</b></button>
+                    </div>
+                </form>
+    </div>
+</div>
